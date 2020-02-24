@@ -1,0 +1,87 @@
+h1
+{
+  justify-content: center;
+  font-family: fantasy;
+  padding: 25px;
+  text-align: center;
+  background: #00BFFF;
+  margin: 0;
+  color: #F0F8FF
+}
+
+body
+{
+  background: #87CEFA;
+  margin: 0
+}
+nav
+{
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  font-family: fantasy;
+  background-color: #00BFFF;
+  justify-content: center;
+  flex-direction: column;
+  color: #F0F8FF;
+
+}
+a:hover
+{
+  background-color: #E0FFFF;
+}
+a
+{
+  color: ##F0F8FF;
+  padding: 1em;
+  transition: background-colour 3s;
+}
+main
+{
+  width: 85%;
+  float: right;
+  color: #F0F8FF;
+}
+
+/* MOBILE AND GLOBAL STYLES */
+
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
+body {
+  background: #00BFFF;
+}
+
+
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 500px) {
+
+  /* applies to screens wider than 499px */
+
+  body {
+    background: #1E90FF;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+}
+}
+
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+  /* applies to screens wider than 999px */
+
+  body {
+    background: #1E90FF;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+  }
+}
