@@ -1,14 +1,16 @@
-h1
+h1 /*links back to the index page*/
 {
   justify-content: center;
-  font-family: fantasy;
+  font-family: arial;
   padding: 25px;
   text-align: center;
-  background: #00BFFF;
+  background: #00BFFF/*Deep sky blue*/;
   margin: 0;
-  color: #F0F8FF
+  text-transform: uppercase;
 }
-
+.header {
+  color: navy;
+}
 body
 {
   background: #87CEFA;
@@ -19,11 +21,11 @@ nav
   display: flex;
   padding: 5px;
   text-align: center;
-  font-family: fantasy;
-  background-color: #00BFFF;
+  font-family: arial;
+  background-color: #00BFFF /*Deep sky blue*/;
   justify-content: center;
   flex-direction: column;
-  color: #F0F8FF;
+  /*color: #F0F8FF; /*Alice Blue*/;
 
 }
 a:hover
@@ -32,7 +34,7 @@ a:hover
 }
 a
 {
-  color: ##F0F8FF;
+  color: ##F0F8FF; /*Alice Blue*/;
   padding: 1em;
   transition: background-colour 3s;
 }
@@ -40,7 +42,7 @@ main
 {
   width: 85%;
   float: right;
-  color: #F0F8FF;
+  color: #F0F8FF; /*Alice Blue*/;
 }
 
 /* MOBILE AND GLOBAL STYLES */
@@ -49,10 +51,13 @@ main
 /* and above unless overwritten below */
 
 body {
-  background: #00BFFF;
+  background: #00BFFF /*Deep sky blue*/;
 }
+.introduction
+ {
+   color: navy;
 
-
+ }
 
 /* TABLET STYLES */
 
